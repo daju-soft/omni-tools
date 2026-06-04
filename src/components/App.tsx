@@ -59,7 +59,7 @@ function App() {
         >
           <CustomSnackBarProvider>
             <UserTypeFilterProvider>
-              <BrowserRouter>
+              <BrowserRouter basename="/omni-tools">
                 <Navbar
                   mode={mode}
                   onChangeMode={() => {
